@@ -49,4 +49,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    val work_version = "2.8.1"
+    implementation("androidx.work:work-runtime:$work_version")
+    implementation("androidx.work:work-runtime-ktx:$work_version")
 }
